@@ -61,13 +61,14 @@ try:
        
        
        client=Client(account_sid,auth_token) 
+       rand=random.randint(0,2)
 
        message=client.messages \
        .create( 
-        body=f'''
+        body=f''' 
         {COMPANY_NAME}: {sign}{int(perc_change)}
-        Headline: {random.choice(news_title) }
-        Brief:{random.choice(news_description)}''',
+        Headline: {news_title[rand] }
+        Brief:{news_description[rand]}''',
         from_="your_api_mobile_number" ,
         to="your_mobile_number"
         )
