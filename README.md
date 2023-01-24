@@ -1,4 +1,6 @@
-# Stock-market-daily-SMS-alerts
+# Stock-market-daily-SMS-alerts 
+![WhatsApp Image 2023-01-24 at 1 59 55 PM](https://user-images.githubusercontent.com/92630714/214244969-df23df2c-9730-4e75-835c-6b1740e6aa78.jpeg)
+
 ## Developed a program to create daily SMS alerts for your favourite stock market company with News regarding it using Stock_API(for stock market rates), NewsAPI(for News) and Twilio Rest API(for SMS) to your mobile number. 
 # APIs used:
 # 1.Twilio API- https://www.twilio.com/
